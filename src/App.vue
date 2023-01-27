@@ -1,8 +1,8 @@
 <template>
   <div id="app">
     <nav>
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/">Калькулятор</router-link> <span style="color:white"> | </span>
+      <a href="https://github.com/Aniwex" style="color:white">GitHub</a>
     </nav>
     <router-view/>
   </div>
@@ -18,7 +18,7 @@
 }
 
 nav {
-  padding: 30px;
+  padding: 20px;
 }
 
 nav a {
